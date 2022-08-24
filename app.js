@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-let toDoLists = ["밥먹기"];
+let toDoLists = ["목록을 정해주세요"];
 
 app.set('view engine', 'pug'); // 확장자 지정
 
