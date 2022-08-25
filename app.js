@@ -41,7 +41,7 @@ app.post('/update_list', (req, res)=>{
 });
 
 app.listen(port, () => {
-    console.log('connected!');
+    console.log('connected');
 });
 
 // https://medium.com/@h662hong/node-js%EB%A1%9C-to-do-list-%EB%A7%8C%EB%93%A4%EA%B8%B0-1-5bee6e658d10
