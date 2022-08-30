@@ -4,7 +4,7 @@ const port = 3000;
 
 let toDoLists = ["목록을 정해주세요"];
 
-app.set('view engine', 'pug'); // 확장자 지정
+app.set('view engine', 'pug'); //확장자 지정
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
